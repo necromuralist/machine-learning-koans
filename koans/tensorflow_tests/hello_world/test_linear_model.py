@@ -16,7 +16,7 @@ from pytest_bdd import (
 )
 
 # thing under test TUT
-from .solution import (
+from .mocked_koan import (
     compile_network,
     fit_model,
     make_model,
